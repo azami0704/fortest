@@ -11,3 +11,8 @@ if(navigator.userAgentData.platform =='Android'){
     p.textContent = navigator.userAgentData.platform + navigator.userAgent + navigator.userAgentData.mobile;
     console.log(navigator.userAgent);
 }
+
+let a = 1;
+let b=a+=1;
+
+console.log(b);
