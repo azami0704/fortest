@@ -15,5 +15,5 @@ console.log(navigator.userAgentData.platform);
 // }
 
 
-p.textContent = navigator.userAgentData.platform + navigator.userAgent + navigator.userAgentData.mobile;
+p.textContent = navigator.userAgent;
 
