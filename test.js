@@ -1,6 +1,6 @@
 const p = document.getElementById('p');
 
-console.log(navigator.userAgentData.platform);
+// console.log(navigator.userAgentData.platform);
 
 // if(navigator.userAgentData.mobile){
 //     p.textContent = navigator.userAgentData.platform + navigator.userAgent + navigator.userAgentData.mobile;
