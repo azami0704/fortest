@@ -17,3 +17,9 @@ const p = document.getElementById('p');
 
 p.textContent = navigator.userAgent;
 
+if(navigator.userAgent.toLowerCase().includes("android")){
+    p.textContent = navigator.userAgent + 'OK';
+}else{
+    p.textContent = navigator.userAgent + 'NOTMATCH';
+}
+
