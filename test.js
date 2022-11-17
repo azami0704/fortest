@@ -18,7 +18,10 @@ const p = document.getElementById('p');
 p.textContent = navigator.userAgent;
 
 if(navigator.userAgent.toLowerCase().includes("android")){
-    p.textContent = navigator.userAgent + 'OK';
+    // p.textContent = navigator.userAgent + 'OK';
+    location.href = 'https://play.google.com/store/games';
+}else if(navigator.userAgent.toLowerCase().includes("iphone")){
+    location.href = 'https://www.apple.com/tw/app-store/';
 }else{
     p.textContent = navigator.userAgent + 'NOTMATCH';
 }
